@@ -1,0 +1,8 @@
+{
+  "apiType": "rest",
+  "paths": {
+    "/calculate": {
+      "lambdaFunction": "calculate"
+    }
+  }
+}

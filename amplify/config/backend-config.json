@@ -1,0 +1,24 @@
+{
+  "api": {
+    "calculate": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "calculate",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "function": {
+    "calculate": {
+      "service": "Lambda",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

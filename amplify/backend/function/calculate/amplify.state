@@ -1,0 +1,6 @@
+{
+  "functionRuntime": "nodejs18.x",
+  "functionName": "calculate",
+  "functionDescription": "Calculates mathematical expressions",
+  "handler": "index.handler"
+}
